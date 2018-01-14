@@ -60,7 +60,7 @@ media_player:
     host: chromecast-lr.lan
   - platform: cast
     name: home-mini-lr
-    host: home-mini-lr
+    host: home-mini-lr.lan:=
   - platform: roku
     name: roku-tv
     host: roku-tv.lan
