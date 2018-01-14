@@ -56,7 +56,14 @@ cloud:
 
 media_player:
   - platform: cast
+    name: chromecast-lr
+    host: chromecast-lr.lan
+  - platform: cast
+    name: home-mini-lr
+    host: home-mini-lr
   - platform: roku
+    name: roku-tv
+    host: roku-tv.lan
 
 climate: 
   platform: radiotherm
