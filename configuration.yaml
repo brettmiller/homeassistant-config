@@ -23,6 +23,7 @@ frontend:
 config:
 
 http:
+  base_url: ha.lan:80
 
 # Checks for available updates
 updater:
